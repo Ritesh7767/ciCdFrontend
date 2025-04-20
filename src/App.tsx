@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+      <h1>hello world, this is ritesh</h1>
       <h1>Counter value :- {count}</h1> 
       <button onClick={() => setCount(prev => prev + 1)}>+</button>
       <button onClick={() => setCount(prev => prev - 1)}>-</button>
